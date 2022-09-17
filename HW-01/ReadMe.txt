@@ -5,6 +5,8 @@ Dependencies:
 - Matplotlib
 - Seaborn
 
+Please check the notebook for a more detailed report.
+
 Question 1: 
 
 - Linear Regression was implemented using gradient descent
