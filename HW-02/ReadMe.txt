@@ -3,7 +3,6 @@ Dependencies:
 - Numpy
 - Pandas
 - Matplotlib
-- Seaborn
 
 Please check the notebook for a more detailed report.
 
