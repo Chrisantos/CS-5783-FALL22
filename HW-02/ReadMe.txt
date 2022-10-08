@@ -52,8 +52,7 @@ before shouting up between 7 and 8.
 7. Activation function determines the neurons that would be activated and how the input is transformed into an output. 
 Essentially, it can help introduce non-linearity to the network (when a linear or identity activation function is not used).
 
-a. No, the update rule does not need to be changed since we do not specify the activation function to be used in the equation, 
-but rather we use g(Zi) and g'(Zi) which signifies an arbitrary activation function and its derivative.
+a. Since the update rule is based on the value of g(Zi) and g'(Zi), a change in the value would require a change in the update rule as well when computing the gradients. However, mathematically, we don't need to alter our equations since g(Zi) and g'(Zi) signify an arbitrary activation function and its derivative.
 
 b. For this experiment, I will be using the Tanh and the ReLu activation functions, and their derivatives need to 
 be computed and used in the backpropation algorithm instead of the derivative of the sigmoid function. 
